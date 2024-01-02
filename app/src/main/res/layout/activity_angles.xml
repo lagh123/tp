@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AnglesActivity">
+
+    <TextView
+        android:id="@+id/textViewAngleBetweenLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angle Between Lines: 0.0"
+        tools:text="Angle Between Lines: 45.0" />
+
+    <TextView
+        android:id="@+id/textViewAngleLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angle Left: 0.0"
+        tools:text="Angle Left: 30.0" />
+
+    <TextView
+        android:id="@+id/textViewAngleRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angle Right: 0.0"
+        tools:text="Angle Right: 15.0" />
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note: 0.0"
+        tools:text="Note: 10.0" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        tools:src="@drawable/ic_launcher_background" />
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hhhh"
+        tools:text="kkkk" />
+
+</LinearLayout>
